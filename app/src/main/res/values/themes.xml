@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.DayNightXMLThemes" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/light_primary</item>
+        <item name="colorOnPrimary">@color/light_on_primary</item>
+        <item name="backgroundColor">@color/light_background</item>
+        <item name="colorOnBackground">@color/light_on_background</item>
+        <item name="toolbarStyle">@style/LightToolbarStyle</item>
+        <item name="textAppearanceHeadline6">@style/ToolbarTitleLight</item>
+    </style>
+
+    <style name="LightToolbarStyle" parent="Widget.MaterialComponents.Toolbar">
+        <item name="titleTextAppearance">@style/ToolbarTitleLight</item>
+        <item name="android:layout_height">56dp</item>
+    </style>
+
+    <style name="ToolbarTitleLight" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@color/light_on_primary</item>
+    </style>
+</resources>
